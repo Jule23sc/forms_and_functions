@@ -25,10 +25,8 @@ function altersBerechnung(event) {
 }
 
 //aufgabe1_2_farbwechselbutton
-//const colorChange =document.body.querySelector(".dritte_aufgabe");
-
-//function farbwechsel(event) {
-//    const farbwechsel = document.getElementById("farbcode").value;
-//    const bgc = ();
-//
-//}
+function farbwechsel() {
+    const color = document.getElementById("farbcode").value;
+    console.log(color);
+    document.body.style.backgroundColor = color;
+}
